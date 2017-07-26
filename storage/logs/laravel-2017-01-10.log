@@ -1,0 +1,149 @@
+[2017-01-10 10:18:07] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'tuniuService' not found in /Users/ahan/project/lvmama/7.6/phpCrawler/app/Console/Commands/Crawler.php:90
+Stack trace:
+#0 [internal function]: App\Console\Commands\Crawler->handle()
+#1 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#2 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#3 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(App\Console\Commands\Crawler), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/ahan/project/lvmama/7.6/phpCrawler/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 {main}  
+[2017-01-10 10:19:01] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'tuniuService' not found in /Users/ahan/project/lvmama/7.6/phpCrawler/app/Console/Commands/Crawler.php:48
+Stack trace:
+#0 [internal function]: App\Console\Commands\Crawler->handle()
+#1 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#2 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#3 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(App\Console\Commands\Crawler), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/ahan/project/lvmama/7.6/phpCrawler/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 {main}  
+[2017-01-10 10:20:04] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'tuniuService' not found in /Users/ahan/project/lvmama/7.6/phpCrawler/app/Console/Commands/Crawler.php:48
+Stack trace:
+#0 [internal function]: App\Console\Commands\Crawler->handle()
+#1 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#2 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#3 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(App\Console\Commands\Crawler), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/ahan/project/lvmama/7.6/phpCrawler/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 {main}  
+[2017-01-10 10:20:56] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'tuniuService' not found in /Users/ahan/project/lvmama/7.6/phpCrawler/app/Console/Commands/Crawler.php:48
+Stack trace:
+#0 [internal function]: App\Console\Commands\Crawler->handle()
+#1 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#2 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#3 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(App\Console\Commands\Crawler), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/ahan/project/lvmama/7.6/phpCrawler/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 {main}  
+[2017-01-10 10:24:52] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'tuniuService' not found in /Users/ahan/project/lvmama/7.6/phpCrawler/app/Console/Commands/Crawler.php:49
+Stack trace:
+#0 [internal function]: App\Console\Commands\Crawler->handle()
+#1 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#2 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#3 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(App\Console\Commands\Crawler), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/ahan/project/lvmama/7.6/phpCrawler/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 {main}  
+[2017-01-10 10:30:31] production.ERROR: ReflectionException: Class tuniuService does not exist in /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php:749
+Stack trace:
+#0 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): ReflectionClass->__construct('tuniuService')
+#1 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('tuniuService', Array)
+#2 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('tuniuService', Array)
+#3 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Foundation\Application->make('tuniuService')
+#4 /Users/ahan/project/lvmama/7.6/phpCrawler/app/Console/Commands/Crawler.php(48): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#5 [internal function]: App\Console\Commands\Crawler->handle()
+#6 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#7 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#8 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(App\Console\Commands\Crawler), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /Users/ahan/project/lvmama/7.6/phpCrawler/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 {main}  
+[2017-01-10 10:30:48] production.ERROR: ReflectionException: Class tuniuService does not exist in /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php:749
+Stack trace:
+#0 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): ReflectionClass->__construct('tuniuService')
+#1 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('tuniuService', Array)
+#2 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('tuniuService', Array)
+#3 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Foundation\Application->make('tuniuService')
+#4 /Users/ahan/project/lvmama/7.6/phpCrawler/app/Console/Commands/Crawler.php(48): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#5 [internal function]: App\Console\Commands\Crawler->handle()
+#6 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#7 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#8 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(App\Console\Commands\Crawler), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /Users/ahan/project/lvmama/7.6/phpCrawler/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 {main}  
+[2017-01-10 10:31:52] production.ERROR: ReflectionException: Class tuniuService does not exist in /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php:749
+Stack trace:
+#0 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): ReflectionClass->__construct('tuniuService')
+#1 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('tuniuService', Array)
+#2 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('tuniuService', Array)
+#3 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Foundation\Application->make('tuniuService')
+#4 /Users/ahan/project/lvmama/7.6/phpCrawler/app/Console/Commands/Crawler.php(48): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#5 [internal function]: App\Console\Commands\Crawler->handle()
+#6 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#7 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#8 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(App\Console\Commands\Crawler), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /Users/ahan/project/lvmama/7.6/phpCrawler/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 {main}  
+[2017-01-10 10:37:45] production.ERROR: Illuminate\Contracts\Container\BindingResolutionException: Target [App\Http\Service\tuniuService] is not instantiable. in /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php:763
+Stack trace:
+#0 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Servic...', Array)
+#1 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(709): Illuminate\Container\Container->make('App\\Http\\Servic...', Array)
+#2 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Foundation\Application->make('App\\Http\\Servic...')
+#3 /Users/ahan/project/lvmama/7.6/phpCrawler/app/Console/Commands/Crawler.php(48): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 [internal function]: App\Console\Commands\Crawler->handle()
+#5 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#6 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#7 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(App\Console\Commands\Crawler), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /Users/ahan/project/lvmama/7.6/phpCrawler/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 {main}  
+[2017-01-10 13:12:20] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined method App\Console\Commands\Crawler::db() in /Users/ahan/project/lvmama/7.6/phpCrawler/app/Console/Commands/Crawler.php:92
+Stack trace:
+#0 [internal function]: App\Console\Commands\Crawler->handle()
+#1 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#2 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#3 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(App\Console\Commands\Crawler), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /Users/ahan/project/lvmama/7.6/phpCrawler/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/ahan/project/lvmama/7.6/phpCrawler/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 {main}  
