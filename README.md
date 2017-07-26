@@ -52,7 +52,7 @@ Laravel规定了项目的目录结构，如下：
 
 ```
 $ svn checkout  
-$ cd zhuanti
+$ cd crawler-job
 ```
 
 check out to your branch
@@ -102,12 +102,12 @@ bootstrap/cache, storage/, public/index.php 和.env不做同步
 /bootstrap/cache 和 /storage/ 增加写权限
 
 访问：
-open http://m.dev.lvmama.com/zhuanti/
+open http://m.dev.lvmama.com/crawler-job/
 
 或着
 
 ```
-cd ./zhuanti
+cd ./crawler-job
 php artisan serve
 
 ```
