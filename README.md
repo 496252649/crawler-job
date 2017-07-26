@@ -73,9 +73,9 @@ $ vagrant up
  server {
         listen 80;
         #listen   [::]:80 default ipv6only=on; ## listen for ipv6
-        root /Users/ahan/project/lvmama/7.6;
+        root /Users/ahan/project/crawler-job/7.6;
         index index.html index.htm index.php;
-        server_name cm.dev.lvmama.com
+        server_name cm.dev.crawler-job.com
         location / {
                 autoindex on;
                 if (!-e $request_filename){
@@ -102,7 +102,7 @@ bootstrap/cache, storage/, public/index.php 和.env不做同步
 /bootstrap/cache 和 /storage/ 增加写权限
 
 访问：
-open http://m.dev.lvmama.com/crawler-job/
+open http://m.dev.crawler-job.com/crawler-job/
 
 或着
 

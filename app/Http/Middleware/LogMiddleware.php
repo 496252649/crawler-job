@@ -29,7 +29,7 @@ class LogMiddleware
         $ip = Request::getClientIp();
 
         $runTime = (round(microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"], 8)*1000) . 'ms';
-        Log::useFiles(app()->storagePath().'/logs/lvmama-php-log-'.date("Y-m-d").'.log','info');
+        Log::useFiles(app()->storagePath().'/logs/crawler-job-php-log-'.date("Y-m-d").'.log','info');
         Log::info(
             ' url'.$url.' IP:'.$ip.' runTime:'.$runTime.' sql:'.json_encode($queries)
         );

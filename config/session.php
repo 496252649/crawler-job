@@ -122,7 +122,7 @@ return [
     |
     */
 
-    'cookie' => 'lvmamaCMSPhp_session',
+    'cookie' => 'crawler-jobCMSPhp_session',
 
     /*
     |--------------------------------------------------------------------------
