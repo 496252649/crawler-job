@@ -136,12 +136,20 @@ return [
 
         'default' => [
             'host'     => env('REDIS_HOST', '127.0.0.1'),
-            'password' => env('REDIS_PASSWORD', null),
             'port'     => env('REDIS_PORT', 6379),
+            'password' => env('REDIS_PASSWORD', null),
             'database' => 0,
+            'timeout'  => 1,
+        ],
+        'default1' => [
+            'host'     => env('REDIS_HOST', '127.0.0.1'),
+            'port'     => env('REDIS_PORT', 6379),
+        ],
+        'default2' => [
+            'host'     => env('REDIS_HOST', '127.0.0.1'),
+            'port'     => env('REDIS_PORT', 6379),
         ],
         'options'     => [
-            'timeout'  => 1,
             'cluster'  => 'redis'
         ]
     ],
