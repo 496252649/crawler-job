@@ -82,10 +82,10 @@ $ vagrant up
                         rewrite . /index.php last;
                 }
         }
-        location /zhuanti/ {
+        location /crawler-job/ {
             index  index.html index.htm index.php;
             if (!-e $request_filename){
-                rewrite  ^/activityV1/(.*)$  /activityV1/index.php?s=$1  last;
+                rewrite  ^/crawler-job/(.*)$  /crawler-job/index.php?s=$1  last;
             }
         }
         location ~ \.php$ {
@@ -118,11 +118,13 @@ open http://localhost:8000/
 
 生产部署配置
 ----
-# 生成key：     php artisan key:generate
-# 生成常用类缓存：php artisan optimize     解除：php artisan clear-compiled
-# 生成配置缓存：  php artisan config:cache 解除：php artisan config:clear
-# 生成路由缓存：  php artisan route:cache  解除：php artisan route:clear
-# 生成视图缓存：  自动生成                  解除：php artisan view:clear
+```
+ 生成key：     php artisan key:generate
+ 生成常用类缓存：php artisan optimize     解除：php artisan clear-compiled
+ 生成配置缓存：  php artisan config:cache 解除：php artisan config:clear
+ 生成路由缓存：  php artisan route:cache  解除：php artisan route:clear
+ 生成视图缓存：  自动生成                  解除：php artisan view:clear
+```
 
 配置文件都放在app/config目录，
 可以通过`Config::get('filename.keyname.subkeyname')`读取。
