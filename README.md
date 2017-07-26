@@ -119,6 +119,8 @@ open http://localhost:8000/
 生产部署配置
 ----
 ```
+ composer install --no-dev or
+ composer update --no-dev
  生成key：     php artisan key:generate
  生成常用类缓存：php artisan optimize     解除：php artisan clear-compiled
  生成配置缓存：  php artisan config:cache 解除：php artisan config:clear
